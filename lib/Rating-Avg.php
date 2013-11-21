@@ -71,7 +71,7 @@ class rating_average{
 		$ret['item_list'] 		= $this->get_excel($var['location_item_list']);
 		$ret['item_rating'] 	= $this->get_excel($var['location_item_rating']);
 		$ret['cnt'] 				= $this->count_average($ret['item_rating'], $var);
-		print_r($ret['cnt']);
+		
 		return $ret;
 	}
 }
