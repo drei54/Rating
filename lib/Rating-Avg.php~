@@ -75,7 +75,7 @@ class rating_average{
 		return $ret;
 	}
 }
-/*
+
 #assign variable
 $var['location_item_list'] 	= '/var/www/homeasia/item_list.xlsx';
 $var['location_item_rating'] 	= '/var/www/homeasia/item_rating.xlsx';
@@ -85,5 +85,5 @@ $var['ed'] = '2013-11-20';
 #call class
 $class = new rating_average();
 $class->main($var);
-*/
+
 ?>
