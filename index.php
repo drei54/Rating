@@ -69,7 +69,7 @@ if(isset($_GET['submit']) == 1){
 		$_GET['sd'] 	= date('Y-m-d', strtotime($_GET['ed'] . ' -3 month'));
 		$class 			= new rating_average();
 		$data 			= $class->main($_GET);
-		print_r($data);
+		#print_r($data);
 ?>
 <h4>List Item</h4>
 <table class="table table-striped table-bordered">
