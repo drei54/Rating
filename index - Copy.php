@@ -11,7 +11,7 @@
   </head>
   
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
-TESTING
+TESTING DULU
 <?php
 include 'lib/Rating-Avg.php';
 
